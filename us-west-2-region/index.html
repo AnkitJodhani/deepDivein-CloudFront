@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .text-animation {
+            font-size: 100px;
+            animation: colorful-animation 5s infinite;
+        }
+
+        @keyframes colorful-animation {
+            0% {
+                color: red;
+            }
+
+            25% {
+                color: blue;
+            }
+
+            50% {
+                color: green;
+            }
+
+            75% {
+                color: orange;
+            }
+
+            100% {
+                color: purple;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-animation">Hello, I serve from Oregon (us-west-2) region</h1>
+    </div>
+
+</body>
+
+</html>
